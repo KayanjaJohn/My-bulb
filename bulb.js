@@ -4,7 +4,11 @@ createApp({
     data(){
         return{
             description: 'Let there be light',
-           bulbChanges: true
+           bulbChanges: true,
+           Switch:{
+            switchOn: 'On',
+            switchOff: 'Off'
+           }
          }
         }
 

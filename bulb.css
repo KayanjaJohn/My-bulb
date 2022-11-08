@@ -9,7 +9,7 @@ button{
     padding: 12px;
     font-weight: 900;
     font-size: 25px;
-    background: linear-gradient(rgb(153, 148, 148),rgb(18, 221, 18),rgb(156, 154, 154));
+    background: linear-gradient(to right,rgb(18, 221, 18),rgb(18, 221, 18),rgb(247, 13, 13),rgb(247, 13, 13));
 }
 
 h1{

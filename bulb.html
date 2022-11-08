@@ -18,7 +18,8 @@
             <div v-else="bulbChanges">
                 <img src="/images/bulbOn.jpg" class="img2">
             </div>
-    <button @click="bulbChanges=!bulbChanges">On</button>
+    <button @click="bulbChanges=!bulbChanges">{{Switch.switchOn}}  <span style="background-color: red; padding:4px; padding-bottom:12px; padding-top:12.5px;">{{Switch.switchOff}}</span></button>
+    <!-- <button @click="!bulbChanges=!bulbChanges">{{Switch.switchOff}}</button> -->
     </div>
  
 <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
