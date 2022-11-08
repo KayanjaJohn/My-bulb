@@ -1,0 +1,28 @@
+body{
+    color: powderblue;
+    background: #000;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button{
+    padding: 12px;
+    font-weight: 900;
+    font-size: 25px;
+    background: linear-gradient(rgb(153, 148, 148),rgb(18, 221, 18),rgb(156, 154, 154));
+}
+
+h1{
+    font-weight: 900;
+    font-size: 55px;
+}
+
+img1{
+    width: 35%;
+    height: 20%;
+}
+
+.img2{
+    width: 35%;
+    height: 2%;  
+}

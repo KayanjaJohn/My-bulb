@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vuejs Bulb</title>
+    <link rel="stylesheet" href="bulb.css">
+</head>
+<body>
+    <div id="bulb">
+        <div>
+            <h1>{{description}}</h1>
+        </div>
+            <div v-if="bulbChanges">
+                <img src="/Project2/images/bulbOff.jpg" class="img1">
+            </div>
+            <div v-else="bulbChanges">
+                <img src="/Project2/images/bulbOn.jpg" class="img2">
+            </div>
+    <button @click="bulbChanges=!bulbChanges">On</button>
+    </div>
+ 
+<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+<script src="bulb.js"></script>
+</body>
+</html>
